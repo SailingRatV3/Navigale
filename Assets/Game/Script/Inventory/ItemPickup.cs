@@ -1,19 +1,14 @@
 using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+public class ItemPickup : MonoBehaviour, IInteractable
 {
     public ItemData itemData;
 
-    void OnTriggerEnter(Collider other)
+   public void Interact(Inventory inventory)
     {
-        // Change it to Player using the interact button/key to pickup object
-        
-        if(!other.CompareTag("Player")) return;
-        
-        Inventory inventory = other.GetComponent<Inventory>();
-        if (inventory == null) return;
-        
+        //Debug.Log("Item picked up!");
         inventory.AddItem(itemData);
         Destroy(gameObject);
     }
+     
 }

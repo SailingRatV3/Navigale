@@ -1,12 +1,18 @@
 using UnityEngine;
-
+/*
+ * Item Description
+ */
 public abstract class ItemData : ScriptableObject
 {
     public string itemName;
     public string itemDescription;
     public Sprite itemIcon;
+    
+    public GameObject itemPrefab;
+    
     public bool stackable = true;
 
+    public abstract void Equip(GameObject player);
     public abstract void Use(GameObject player);
 
     // Add Throw Item, Drop Item, Item Effects 
