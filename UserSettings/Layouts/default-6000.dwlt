@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1063,7 +1063,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.26818278, y: 0.100648575, z: -0.02818282, w: 0.9577897}
     speed: 2
-    m_Value: {x: 0.26815498, y: 0.100638136, z: -0.028179897, w: 0.9576904}
+    m_Value: {x: -0.26818278, y: -0.100648575, z: 0.02818282, w: -0.9577897}
   m_Size:
     m_Target: 6.173084
     speed: 2
@@ -1188,10 +1188,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 114.20001}
-      m_SelectedIDs: bec40000
-      m_LastClickedID: 50366
-      m_ExpandedIDs: f4faffff
+      scrollPos: {x: 0, y: 146.20001}
+      m_SelectedIDs: 36bb0000
+      m_LastClickedID: 47926
+      m_ExpandedIDs: 12fbffffd2b90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1208,7 +1208,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 3}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1263,7 +1263,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Script/Character/Player
+    - Assets/Game/Standard Assets/Sprites/SPR_UI
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1273,16 +1273,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game/Script/Character/Player
+  - Assets/Game/Standard Assets/Sprites/SPR_UI
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\eilab\Unity\Navigale
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3ec80000
-    m_LastClickedID: 51262
-    m_ExpandedIDs: 00000000cec60000d0c60000d2c60000d4c60000d6c60000d8c60000dac60000dcc60000dec60000e0c60000e2c60000e4c60000e6c60000
+    scrollPos: {x: 0, y: 246}
+    m_SelectedIDs: 1abe0000
+    m_LastClickedID: 48666
+    m_ExpandedIDs: 00000000a6bc0000a8bc0000aabc0000acbc0000aebc0000b0bc0000b2bc0000b4bc0000b6bc0000b8bc0000babc0000bcbc0000bebc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1311,7 +1311,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cec60000d0c60000d2c60000d4c60000d6c60000d8c60000dac60000dcc60000dec60000e0c60000e2c60000e4c60000e6c60000
+    m_ExpandedIDs: 00000000a6bc0000a8bc0000aabc0000acbc0000aebc0000b0bc0000b2bc0000b4bc0000b6bc0000b8bc0000babc0000bcbc0000bebc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1365,7 +1365,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 826}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 169.79999
